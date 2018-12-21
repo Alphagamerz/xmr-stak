@@ -403,12 +403,12 @@ bool minethd::self_test()
 		}
 	else if (algo == cryptonight_turtle)
 		{
-		/*hashf = func_selector(::jconf::inst()->HaveHardwareAes(), false, xmrstak_algo::cryptonight_turtle);
+		hashf = func_selector(::jconf::inst()->HaveHardwareAes(), false, xmrstak_algo::cryptonight_turtle);
 		hashf("This is a test This is a test This is a test", 44, out, ctx);
 		bResult = bResult && memcmp(out, "\x30\x5f\x66\xfe\xbb\xf3\x60\x0e\xda\xbb\x60\xf7\xf1\xc9\xb9\x0a\x3a\xe8\x5a\x31\xd4\x76\xca\x38\x1d\x56\x18\xa6\xc6\x27\x60\xd7", 32) == 0;
 		hashf = func_selector(::jconf::inst()->HaveHardwareAes(), true, xmrstak_algo::cryptonight_turtle);
 		hashf("This is a test This is a test This is a test", 44, out, ctx);
-		bResult = bResult && memcmp(out, "\x30\x5f\x66\xfe\xbb\xf3\x60\x0e\xda\xbb\x60\xf7\xf1\xc9\xb9\x0a\x3a\xe8\x5a\x31\xd4\x76\xca\x38\x1d\x56\x18\xa6\xc6\x27\x60\xd7", 32) == 0;*/
+		bResult = bResult && memcmp(out, "\x30\x5f\x66\xfe\xbb\xf3\x60\x0e\xda\xbb\x60\xf7\xf1\xc9\xb9\x0a\x3a\xe8\x5a\x31\xd4\x76\xca\x38\x1d\x56\x18\xa6\xc6\x27\x60\xd7", 32) == 0;
 		}
 
 
