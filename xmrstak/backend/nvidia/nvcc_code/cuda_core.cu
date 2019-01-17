@@ -393,7 +393,7 @@ __global__ void cryptonight_core_gpu_phase2_double( int threads, int bfactor, in
 		else
 			((ulonglong4*)myChunks)[sub] = ((ulonglong4*)ptr0)[sub];
 
-		if(ALGO != cryptonight_monero_v8 || ALGO == cryptonight_turtle)
+		if(ALGO != cryptonight_monero_v8 && ALGO != cryptonight_turtle)
 			bx0 = cx_aes;
 
 		uint64_t cx_mul;
